@@ -1,0 +1,84 @@
+body {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+#container {
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+}
+
+#pattern-1 {
+    border: solid 1px black;
+    margin-bottom: 100px;
+}
+
+.row {
+    display: flex;
+}
+
+.color-1 {
+    background-color: rgb(252, 120, 59);
+}
+
+.color-2 {
+    background-color: rgb(255, 178, 115);
+}
+
+.color-3 {
+    background-color: rgb(163, 77, 77);
+}
+
+.color-1, .color-2, .color-3 , .gray-1 , .gray-2 , .gray-3 , .gray-4{
+    height: 50px;
+    width: 50px;
+    border: solid 2px white;
+}
+
+#pattern-2 {
+    border: solid 1px black;
+    margin-bottom: 100px;
+}
+
+.gray-1 {
+    background-color: rgb(189, 189, 189);
+}
+
+.gray-2 {
+    background-color: rgb(151, 151, 151);
+}
+
+.gray-3 {
+    background-color: rgb(87, 87, 87);
+}
+
+.gray-4 {
+    background-color: rgb(36, 36, 36);
+}
+
+#pattern-3 {
+
+    border: solid 1px black;
+    /* margin-bottom: 25px; */
+}
+
+.color-a {
+    background-color: white;
+}
+
+.color-b {
+    background-color: rgb(230, 130, 126);
+}
+
+.color-c {
+    background-color: rgb(216, 70, 70);
+}
+
+.color-a, .color-b, .color-c{
+    height: 54px;
+    width: 54px;
+    border: 0px;
+}
